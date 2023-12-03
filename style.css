@@ -1,0 +1,158 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #707070;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 425px;
+}
+
+.nav__container {
+  background-color: #2e3191;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__text__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text__title {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.text__standart--bold {
+  display: flex;
+  font-weight: 600;
+  width: 208px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.text__fone:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+.whatsapp__number_btn {
+  background-color: #44bb2a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.main__images {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  height: 174px !important;
+  border: 1px solid red;
+}
+
+.image__item {
+  width: 174px !important;
+  height: 174px !important;
+  border: 1px solid red;
+}
+.main__container--big {
+  display: none;
+}
+.footer_container {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.img__carpenter {
+  height: 113.87px;
+}
+
+.social__container {
+  margin-top: 10px;
+}
+.social__imgs {
+  width: 28px;
+}
+
+@media screen and (min-width: 1024px) {
+  .main__container--small {
+    display: none;
+  }
+
+  .main__container--big {
+    display: flex;
+    flex-direction: column;
+  }
+  .text__title--Big {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .js-carrousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .main__images {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 450px !important;
+    border: 1px solid red;
+  }
+
+  .image__item {
+    width: 450px !important;
+    height: 450px !important;
+    border: 1px solid red;
+  }
+
+  .js-carrousel--right,
+  .js-carrousel--left {
+    background-color: #2e3191;
+    padding: 13px 18px 10px 15px;
+    border: none;
+    font-size: 25px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .js-carrousel--right:hover,
+  .js-carrousel--left:hover {
+    background-color: #040520;
+  }
+  .js-carrousel--right {
+    padding: 13px 15px 10px 18px;
+  }
+  .fa-chevron-right {
+    color: white;
+  }
+  .fa-chevron-left {
+    color: white;
+  }
+}
