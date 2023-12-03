@@ -65,13 +65,11 @@ a {
   flex-direction: row;
   width: 350px;
   height: 174px !important;
-  border: 1px solid red;
 }
 
 .image__item {
   width: 174px !important;
   height: 174px !important;
-  border: 1px solid red;
 }
 .main__container--big {
   display: none;
@@ -119,13 +117,11 @@ a {
     flex-direction: row;
     width: 900px;
     height: 450px !important;
-    border: 1px solid red;
   }
 
   .image__item {
     width: 450px !important;
     height: 450px !important;
-    border: 1px solid red;
   }
 
   .js-carrousel--right,
