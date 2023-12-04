@@ -97,6 +97,10 @@ a {
   width: 28px;
 }
 
+.signature a {
+  color: #2e3191;
+  font-weight: 800;
+}
 @media screen and (min-width: 1024px) {
   .main__container--small {
     display: none;
@@ -154,5 +158,8 @@ a {
   }
   .fa-chevron-left {
     color: white;
+  }
+  .signature {
+    margin-top: 120px;
   }
 }
